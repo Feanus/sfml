@@ -16,6 +16,7 @@ void Gameboard::game_start()
                 board.close();
         }
 
+        snakeObject.updateSnake();
         board.clear();
         Gameboard::displaySnake(board, snakeObject);
         // Gameboard::displayFood();

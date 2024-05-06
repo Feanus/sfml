@@ -12,6 +12,7 @@ public:
         _velocity = {1.f, 1.f};
     }
     std::vector<sf::Vector2f> getSnake() const;
+    void updateSnake();
 
 private:
     Snake _snake;
