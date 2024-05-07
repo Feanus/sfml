@@ -16,6 +16,8 @@ void Gameboard::game_start()
                 board.close();
         }
 
+        sf::sleep(sf::milliseconds(10));
+
         snakeObject.updateSnake();
         board.clear();
         Gameboard::displaySnake(board, snakeObject);
